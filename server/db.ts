@@ -6,26 +6,26 @@ const sortQuestions = (questions: { points: number; question: string; answer: st
 const pastQuestions: Question[] = sortQuestions([
     {
         points: 100,
-        question: 'What US state is the Land of Lincoln?',
-        answer: 'Illinois',
+        question: 'Where did Denver go to middle school?',
+        answer: 'St. Bernards',
     },
     {
         points: 200,
         question:
-            'Which country\'s flag is this?',
+            'What is Denvers favorite color?',
         imgSrc: "https://cdn.britannica.com/34/4034-050-91EE1BCF/Flag-Myanmar.jpg",
-        answer: 'Myanmar',
+        answer: 'Red',
     },
     {
         points: 300,
         question:
-            'What Ivy League school has the highest Native American enrollment (a whoppping 1%)?',
-        answer: 'Dartmouth',
+            'Who was Denvers twin',
+        answer: 'Kennedy',
     },
     {
         points: 400,
-        question: 'Who wrote the Critique of Pure Reason?',
-        answer: 'Immanuel Kant',
+        question: 'Who was Denvers fifth grade teacher?',
+        answer: 'Matthew Clavel',
     }
 ]);
 
@@ -34,40 +34,40 @@ const presentQuestions: Question[] =
         {
             points: 200,
             question:
-                'What kind of rock is this?',
+                'What is Denvers favorite video game?',
             imgSrc: 'https://madera.objects.liquidweb.services/photos/16842-half-dome-closeup-from-glacier-point-steve-montalto-hmi-Rectangle-600x400.jpg',
-            answer: 'Granite',
+            answer: 'Persona 3 Reload',
         },
         {
             points: 100,
             question:
-                'What is this Cafe called?',
+                'Where does Denver, the best person alive, live?',
             imgSrc: 'https://lh3.googleusercontent.com/p/AF1QipNsmB0ugJeJxYVrBKpRkNkyiEa6cKLamFZ4r0M=s1360-w1360-h1020',
-            answer: 'Chaotic Good',
+            answer: 'Mount Vernon',
         },
         {
             points: 300,
-            question: 'What programming language is the below code?',
+            question: 'What is Denvers favorite song?',
             imgSrc: '/programming_language.png',
-            answer: 'Javascript',
+            answer: 'Full Moon Full Life',
         },
         {
             points: 400,
             question:
-                'Who painted this?',
+                'What year did the first Godzilla movie come out?',
             imgSrc:
                 "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjb1tCOwOdOeYcp5iflCvvW95qCqpmNUo-TMIt3ndxzsxzmgmH18iClIIQLPO48ojPg5Rts2AUm9rZBeVPcjnjrjGaLSzCwbipQotY4EhOk3tUoHJjJyZjTqfY5s9MZ5eSkGrrqmom4JXUdHEqE-Ts8E9i-SuFf9xEukJcFBs5NuOhe6ANdODMFYzyV_Q/s16000/Unfinished.jpg",
-            answer: 'Keith Haring',
+            answer: '1954',
         }
     ]);
 const futureQuestions: Question[] = sortQuestions([
     {
         points: 100,
         question:
-            'This country is home to the Dolomites, which are a mountain range that has historical \'via ferratas\', iron cables and rungs, to aid traversing the peaks?',
+            'happy',
         imgSrc:
             "https://laguidalpina.it/cdn/shop/products/ferrata-marmolada-cresta-ovest-Cristiano-Gregnanin-Guida-Alpina-Certificata-Dolomiti-5.jpg?v=1738870778",
-        answer: 'Italy',
+        answer: 'sad',
     }
 ]);
 
