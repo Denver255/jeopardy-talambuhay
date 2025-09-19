@@ -6,26 +6,28 @@ const sortQuestions = (questions: { points: number; question: string; answer: st
 const pastQuestions: Question[] = sortQuestions([
     {
         points: 100,
-        question: 'Where did Denver go to middle school?',
-        answer: 'St. Bernards',
+        question: "What is this color?",
+        imgSrc: "https://i0.wp.com/www.printmag.com/wp-content/uploads/2025/01/red-00.jpg?fit=1568%2C882&quality=89&ssl=1",
+        answer: 'Red',
     },
     {
         points: 200,
         question:
-            'What is Denvers favorite color?',
-        imgSrc: "https://cdn.britannica.com/34/4034-050-91EE1BCF/Flag-Myanmar.jpg",
-        answer: 'Red',
+            'What dog is this?',
+        imgSrc: "https://cdn.britannica.com/66/235666-050-751046D6/Saint-bernard-dog-st-bernard-standing-snow.jpg",
+        answer: 'St. Bernard',
     },
     {
         points: 300,
         question:
-            'Who was Denvers twin',
-        answer: 'Kennedy',
+            "What movie is this?",
+        imgSrc:"https://upload.wikimedia.org/wikipedia/en/b/b3/Godzilla_vs_Gigan_1972.jpg",
+        answer: 'Godzilla vs Gigan',
     },
     {
         points: 400,
-        question: 'Who was Denvers fifth grade teacher?',
-        answer: 'Matthew Clavel',
+        question: 'Who wrote Crime and Punishment',
+        answer: 'Fyodor',
     }
 ]);
 
@@ -34,29 +36,27 @@ const presentQuestions: Question[] =
         {
             points: 200,
             question:
-                'What is Denvers favorite video game?',
-            imgSrc: 'https://madera.objects.liquidweb.services/photos/16842-half-dome-closeup-from-glacier-point-steve-montalto-hmi-Rectangle-600x400.jpg',
+                'What is this video game?',
+            imgSrc: 'https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25261759/P3R_P4G_Yasogami_High_Costume_Set_2.png?quality=90&strip=all&crop=7.8125,0,84.375,100',
             answer: 'Persona 3 Reload',
         },
         {
             points: 100,
             question:
-                'Where does Denver, the best person alive, live?',
-            imgSrc: 'https://lh3.googleusercontent.com/p/AF1QipNsmB0ugJeJxYVrBKpRkNkyiEa6cKLamFZ4r0M=s1360-w1360-h1020',
-            answer: 'Mount Vernon',
+                'What sport is this?',
+            imgSrc: 'https://www.adorama.com/alc/wp-content/uploads/2024/08/GettyImages-2164091017.jpg',
+            answer: 'Fencing',
         },
         {
             points: 300,
-            question: 'What is Denvers favorite song?',
-            imgSrc: '/programming_language.png',
-            answer: 'Full Moon Full Life',
+            question: 'Who is this?',
+            imgSrc: '/godzilla.png',
+            answer: 'Godzilla',
         },
         {
             points: 400,
             question:
                 'What year did the first Godzilla movie come out?',
-            imgSrc:
-                "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjb1tCOwOdOeYcp5iflCvvW95qCqpmNUo-TMIt3ndxzsxzmgmH18iClIIQLPO48ojPg5Rts2AUm9rZBeVPcjnjrjGaLSzCwbipQotY4EhOk3tUoHJjJyZjTqfY5s9MZ5eSkGrrqmom4JXUdHEqE-Ts8E9i-SuFf9xEukJcFBs5NuOhe6ANdODMFYzyV_Q/s16000/Unfinished.jpg",
             answer: '1954',
         }
     ]);
@@ -64,10 +64,32 @@ const futureQuestions: Question[] = sortQuestions([
     {
         points: 100,
         question:
-            'happy',
+            'What is it called when you flip back?',
+        answer: 'Backflip',
+
+
+    },
+    {
+        points: 200,
+        question:
+            "Who is this vocaloid?",
         imgSrc:
-            "https://laguidalpina.it/cdn/shop/products/ferrata-marmolada-cresta-ovest-Cristiano-Gregnanin-Guida-Alpina-Certificata-Dolomiti-5.jpg?v=1738870778",
-        answer: 'sad',
+            "/HM.webp",
+        answer: 'Hatsune Miku',
+    },
+    {
+        points: 300,
+        question:
+            "What banana replaced the Gros Michel?",
+        imgSrc:
+            "https://domf5oio6qrcr.cloudfront.net/medialibrary/6372/202ebeef-6657-44ec-8fff-28352e1f5999.jpg",
+        answer: 'Cavendish',
+    },
+    {
+        points: 400,
+        question:
+            "What is 'canus' mean when translated from Latin",
+        answer: 'Dog',
     }
 ]);
 
